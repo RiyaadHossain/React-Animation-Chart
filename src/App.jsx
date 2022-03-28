@@ -1,10 +1,12 @@
 import './App.css';
+import Animation from './Components/Animation/Animation';
 import Chart from './Components/Chart/Chart';
 
 function App() {
   return (
     <div className="App">
-      <Chart/>
+      <Chart />
+      <Animation/>
     </div>
   );
 }
